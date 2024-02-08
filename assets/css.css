@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "AdiHaus Regular";
+}
+
+.container {
+    background-image: url("img/Group\ 7.png");
+    display: flex;
+}
+
+.second_child {
+    margin-left: auto;
+}
+
+.set_middle {
+    margin-top: 10%;
+    padding: 20px 0px 0px 200px;
+    font-size: 40px;
+    letter-spacing: 4px;
+}
+
+.logo {
+    padding: 35px 0 0 190px;
+}
+
+.first_span {
+    color: #CD3A24;
+}
+
+.second_span {
+    color: #423A3A;
+    font-weight: bold;
+}
+
+.set_middle p {
+    padding-top: 10px;
+    color: gray;
+    width: 70%;
+    font-size: 15px;
+    letter-spacing: normal;
+}
+
+.mail {
+    width: 70%;
+    margin-top: 10px;
+}
+
+.mail input {
+    width: 86%;
+    padding: 12px 30px;
+    border-right: none;
+    color: #828282;
+    border: 1px solid #828282;
+    background: none;
+}
+
+.mail button {
+    padding: 11px 16px;
+    border-left: none;
+    background-color: #333333;
+    color: white;
+}
+
+.add_image {
+    display: none;
+}
+
+@media only screen and (max-width: 375px) {
+    .container {
+        background: none;
+        background-color: #F3F3F3;
+    }
+
+    .logo {
+        display: block;
+        padding: 0;
+        margin: 20px auto;
+        height: 60px;
+
+    }
+
+    .add_image {
+        display: block;
+    }
+
+    .add_image img {
+        object-fit: fill;
+    }
+
+    .set_middle {
+        padding: 0;
+        margin-top: 10px;
+        text-align: center;
+
+
+    }
+
+    .set_middle h2 {
+        font-size: 48px;
+    }
+
+    .set_middle p {
+        margin: 0 auto;
+        font-size: 12px;
+    }
+
+    .mail {
+        margin: 0 auto;
+        margin-bottom: 5px;
+        width: 70%;
+    }
+
+    .mail input {
+        width: 80%;
+    }
+
+    .mail button {
+        width: 20%;
+    }
+
+
+    .second_child {
+        display: none;
+    }
+}
